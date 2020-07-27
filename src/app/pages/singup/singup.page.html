@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar color="mango">
+    <ion-title>Cadastrar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="center">
+    <app-logo></app-logo>
+    <h1>Criar Conta</h1>
+  </div>
+  
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">Username</ion-label>
+        <ion-input type='text'></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Password</ion-label>
+        <ion-input type='password'></ion-input>
+      </ion-item>
+
+
+      <ion-item>
+        Já possui uma conta? <a routerLink='/login'>Entrar</a>
+      </ion-item>
+
+      <ion-button expand="block" shape='round' color="success">Cadastrar</ion-button>
+    </ion-list>
+  </form>
+
+</ion-content>
