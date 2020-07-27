@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
+import { IonSlides, ToastController } from '@ionic/angular';
 
 
 
@@ -15,5 +16,6 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule
   ]
+  , schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ComponentsModule { }
